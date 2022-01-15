@@ -34,10 +34,10 @@ The analysis of the election show that:
 - **The candidate results were:**
     - Candidate Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
     - Candidate Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
-    - Candidate Raymon Anthony Doane received "3.1%" f the vote and "11,606" number of votes.
+    - Candidate Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
     
 - **The winner of the election was:**
-    - Candidate Diana DeGette who received "73.8%"of the vote and "272,892"number of votes.
+    - Candidate Diana DeGette who received "73.8%" of the vote and "272,892"number of votes.
     
 ***Election Audit Results image provided***
 
@@ -45,8 +45,8 @@ The analysis of the election show that:
 
 ## Election-Audit Summary
    This scrip actually can be used with some modifications for any election. Such as U.S. Presidential election or Mayoral Races election.
-   For U.S. presidential election, just need to replace all the county with state in the following scrip.
-   For Mayoral Races election, just need to replace all the county with city in the following scrip.
+   For U.S. presidential election, just need to replace all the "county" with state in the following scrip.
+   For Mayoral Races election, just need to replace all the "county" with city in the following scrip.
    ```
    if county_name not in county_options:
 
