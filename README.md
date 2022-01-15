@@ -24,7 +24,7 @@ The analysis of the election show that:
     - County Denver received "82.8%" of the vote and "306,055" number of votes.
     - County Arapahoe received "6.7%" of the vote and "24,801" number of votes.
     
-- **The county with the highest turnout was Denver.**
+- **The county had the largest number of votes was Denver.**
 
 - **The candidates were:**
     - Charles Casper Stockham
@@ -32,9 +32,9 @@ The analysis of the election show that:
     - Raymon Anthony Doane
     
 - **The candidate results were:**
-    - Candidate Charles Casper Stockham received "23.0%"of the vote and "85,213"number of votes.
-    - Candidate Diana DeGette received "73.8%"of the vote and "272,892"number of votes.
-    - Candidate Raymon Anthony Doane received "3.1%"of the vote and "11,606"number of votes.
+    - Candidate Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
+    - Candidate Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
+    - Candidate Raymon Anthony Doane received "3.1%" f the vote and "11,606" number of votes.
     
 - **The winner of the election was:**
     - Candidate Diana DeGette who received "73.8%"of the vote and "272,892"number of votes.
@@ -43,3 +43,19 @@ The analysis of the election show that:
 
 ![image](https://user-images.githubusercontent.com/95242493/149599795-04ca44ef-702d-4516-a70e-78ae7e5c6195.png)
 
+## Election-Audit Summary
+   This scrip actually can be used with some modifications for any election. Such as U.S. Presidential election or Mayoral Races election.
+   For U.S. presidential election, just need to replace all the county to state in the following scrip.
+   For Mayoral Races election, just need to replace all the county to city in the following scrip.
+   ```
+   if county_name not in county_options:
+
+            # 4b: Add the existing county to the list of counties.
+            county_options.append(county_name)
+
+            # 4c: Begin tracking the county's vote count.
+            county_votes[county_name] = 0        
+
+        # 5: Add a vote to that county's vote count.
+        county_votes[county_name] += 1   
+   ```
