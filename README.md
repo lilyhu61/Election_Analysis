@@ -17,17 +17,22 @@ A colorado Board of Elections employee has given you the following tasks to comp
 
 ## Election Audit Results
 The analysis of the election show that:
-**- There were "369,711" votes cast in the election.**
-**- The voter turnout of each county and percentage of votes from each county out of the total count were:**
+- **There were "369,711" votes cast in the election.**
+
+- **The voter turnout of each county and percentage of votes from each county out of the total count were:**
+
     - County Jefferson received "10.5%" of the vote and "38,855" number of votes.
     - County Denver received "82.8%" of the vote and "306,055" number of votes.
     - County Arapahoe received "6.7%" of the vote and "24,801" number of votes.
-**- The largest county turnout was Denver.**
-**- The candidates were:**
+    
+- ** The largest county turnout was Denver.**
+
+- ** The candidates were:**
     - 
     - cndi2
     - candi3
-**- The candidate results were:**
+    
+- **The candidate results were:**
     -Candi
 The 
 
