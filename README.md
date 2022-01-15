@@ -45,8 +45,8 @@ The analysis of the election show that:
 
 ## Election-Audit Summary
    This scrip actually can be used with some modifications for any election. Such as U.S. Presidential election or Mayoral Races election.
-   For U.S. presidential election, just need to replace all the county to state in the following scrip.
-   For Mayoral Races election, just need to replace all the county to city in the following scrip.
+   For U.S. presidential election, just need to replace all the county with state in the following scrip.
+   For Mayoral Races election, just need to replace all the county with city in the following scrip.
    ```
    if county_name not in county_options:
 
